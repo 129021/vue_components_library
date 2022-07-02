@@ -4,15 +4,24 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "build:js": "webpack  --config  ./webpack.component.js"
   },
   "dependencies": {
+    "copy-webpack-plugin": "^6.0.3",
     "core-js": "^3.8.3",
+    "nvm": "^0.0.4",
+    "sass": "^1.53.0",
     "vue": "^2.6.14"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0"
   }
 }
