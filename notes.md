@@ -61,6 +61,6 @@ Demo.install=function (Vue) {
 
 这样我们就可以像使用UI组件库一样使用这个Demo组件了
 
-
+今天没干活，明天要认真干活了
 
 
