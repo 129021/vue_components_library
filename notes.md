@@ -64,3 +64,4 @@ Demo.install=function (Vue) {
 今天没干活，明天要认真干活了
 
 
+7-6 没工作
