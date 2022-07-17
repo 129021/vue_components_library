@@ -1,7 +1,22 @@
 {
-  "name": "somthing-ui",
+  "name": "something-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "a Vue components library",
+  "main": "dist/index.umd.js",
+  "keywords": [
+    "something-ui",
+    "vue",
+    "ui"
+  ],
+  "author": {
+    "name": "Jianqin Wang",
+    "email": "wangjianqin123@gmail.com"
+  },
+  "files": [
+    "dist",
+    "components"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:js && npm run build:css",

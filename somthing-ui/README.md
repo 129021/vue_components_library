@@ -1,19 +1,19 @@
-# somthing-ui
+# something-ui 组件库
 
-## Project setup
+### 快速开始
+#### 1. 安装组件库
+```bash
+npm i something-ui
 ```
-npm install
-```
+#### 2. 引用组件库
+```javascript
+//全部引用
+import "something/dist/css/index.css";
+import SUI from 'something-ui',
+Vue.use(SUI);
 
-### Compiles and hot-reloads for development
+//按需引用
+import 'something-ui/dist/css/demo.css';
+import { Demo } from 'something-ui';
+Vue.use(Demo);
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
