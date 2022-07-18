@@ -8,7 +8,7 @@ npm i something-ui
 #### 2. 引用组件库
 ```javascript
 //全部引用
-import "something/dist/css/index.css";
+import "something-ui/dist/css/index.css";
 import SUI from 'something-ui',
 Vue.use(SUI);
 
