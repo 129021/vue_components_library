@@ -16,6 +16,8 @@
       
     </template>
     </Card>
+    <Button type="primary" disabled round icon="info"></Button>
+    <Button type="danger"  round icon="info" @click="handleClick"></Button>
    
   </div>
 </template>
@@ -24,6 +26,11 @@
 
 export default {
   name: 'App',
+  methods:{
+    handleClick(){
+      alert(123)
+    }
+  }
 
 }
 </script>

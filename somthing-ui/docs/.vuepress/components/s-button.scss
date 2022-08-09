@@ -1,0 +1,240 @@
+.s-button {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    font-weight: 500;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .s-button+.s-button {
+    margin-left: 10px;
+  }
+  
+  .s-button:focus,
+  .s-button:hover {
+    color: #409EFF;
+    border-color: #c6e2ff;
+    background-color: #ecf5ff;
+  }
+
+
+.s-button:active{
+    color:aqua;
+    border-color: aqua;
+    outline: 0;
+}
+
+.s-button.is-disabled,
+.s-button.is-disabled:focus,
+.s-button.is-disabled:hover{
+    color:#c0c4cc;
+    cursor:not-allowed;
+    background-color: #fff;
+    border-color: #ebeef5;
+}
+
+.s-button--primary{
+    color:#fff;
+    background-color: #409eff;
+    border-color: #409eff;
+}
+
+.s-button--primary:focus,
+.s-button--primary:hover{
+    background-color: #66b1ff;
+    border-color:#66b1ff;
+    color:#fff;
+}
+
+.s-button--primary.is-disabled,
+.s-button--primary.is-disabled:active,
+.s-button--primary.is-disabled:focus,
+.s-button--primary.is-disabled:hover {
+  color: #fff;
+  background-color: #a0cfff;
+  border-color: #a0cfff;
+}
+
+
+.s-button--success {
+  color: #fff;
+  background-color: #67c23a;
+  border-color: #67c23a;
+}
+
+.s-button--success:focus,
+.s-button--success:hover {
+  background: #85ce61;
+  border-color: #85ce61;
+  color: #fff;
+}
+
+.s-button--success.is-active,
+.s-button--success:active {
+  background: #5daf34;
+  border-color: #5daf34;
+  color: #fff;
+}
+
+.s-button--success:active {
+  outline: 0;
+}
+
+.s-button--success.is-disabled,
+.s-button--success.is-disabled:active,
+.s-button--success.is-disabled:focus,
+.s-button--success.is-disabled:hover {
+  color: #fff;
+  background-color: #b3e19d;
+  border-color: #b3e19d;
+}
+
+.s-button--warning {
+  color: #fff;
+  background-color: #e6a23c;
+  border-color: #e6a23c;
+}
+
+.s-button--warning:focus,
+.s-button--warning:hover {
+  background: #ebb563;
+  border-color: #ebb563;
+  color: #fff;
+}
+
+.s-button--warning.is-active,
+.s-button--warning:active {
+  background: #cf9236;
+  border-color: #cf9236;
+  color: #fff;
+}
+
+.s-button--warning:active {
+  outline: 0;
+}
+
+.s-button--warning.is-disabled,
+.s-button--warning.is-disabled:active,
+.s-button--warning.is-disabled:focus,
+.s-button--warning.is-disabled:hover {
+  color: #fff;
+  background-color: #f3d19e;
+  border-color: #f3d19e;
+}
+
+.s-button--danger {
+  color: #fff;
+  background-color: #f56c6c;
+  border-color: #f56c6c;
+}
+
+.s-button--danger:focus,
+.s-button--danger:hover {
+  background: #f78989;
+  border-color: #f78989;
+  color: #fff;
+}
+
+.s-button--danger.is-active,
+.s-button--danger:active {
+  background: #dd6161;
+  border-color: #dd6161;
+  color: #fff;
+}
+
+.s-button--danger:active {
+  outline: 0;
+}
+
+.s-button--danger.is-disabled,
+.s-button--danger.is-disabled:active,
+.s-button--danger.is-disabled:focus,
+.s-button--danger.is-disabled:hover {
+  color: #fff;
+  background-color: #fab6b6;
+  border-color: #fab6b6;
+}
+
+
+.s-button--info {
+  color: #fff;
+  background-color: #909399;
+  border-color: #909399;
+}
+
+.s-button--info:focus,
+.s-button--info:hover {
+  background: #a6a9ad;
+  border-color: #a6a9ad;
+  color: #fff;
+}
+
+.s-button--info.is-active,
+.s-button--info:active {
+  background: #82848a;
+  border-color: #82848a;
+  color: #fff;
+}
+
+.s-button--info:active {
+  outline: 0;
+}
+
+.s-button--info.is-disabled,
+.s-button--info.is-disabled:active,
+.s-button--info.is-disabled:focus,
+.s-button--info.is-disabled:hover {
+  color: #fff;
+  background-color: #c8c9cc;
+  border-color: #c8c9cc;
+}
+
+/**圆角**/
+.s-button.is-round {
+  border-radius: 20px;
+  padding: 12px 23px;
+}
+
+/**size**/
+
+.s-button--medium {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.s-button--mini,
+.s-button--small {
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.s-button--small {
+  padding: 9px 15px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.s-button--mini {
+  padding: 7px 15px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.s-button::-moz-focus-inner {
+  border: 0;
+}
